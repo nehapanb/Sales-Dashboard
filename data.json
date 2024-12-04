@@ -1,0 +1,67 @@
+{
+  "product": [
+    {
+      "pname": "Keyboard",
+      "pnumber": "102",
+      "payment": "paid",
+      "status": "Delivered",
+      "id": "9ac5"
+    },
+    {
+      "recv": "Mouse",
+      "date": "44",
+      "status": "due",
+      "price": "Cancelled",
+      "id": "472d"
+    },
+    {
+      "pname": "Monitor",
+      "pnumber": 104,
+      "payment": "paid",
+      "status": "In-Transit",
+      "id": "8385"
+    },
+    {
+      "pname": "USB Cable",
+      "pnumber": 105,
+      "payment": "paid",
+      "status": "Delivered",
+      "id": "580f"
+    },
+    {
+      "pname": "Charger",
+      "pnumber": 106,
+      "payment": "due",
+      "status": "Pending",
+      "id": "2db7"
+    },
+    {
+      "pname": "Tablet",
+      "pnumber": 107,
+      "payment": "due",
+      "status": "Shipped",
+      "id": "3e54"
+    },
+    {
+      "pname": "Smartwatch",
+      "pnumber": 108,
+      "payment": "paid",
+      "status": "Delivered",
+      "id": "33da"
+    },
+    {
+      "pname": "Himanshu",
+      "pnumber": 108,
+      "payment": "paid",
+      "status": "Delivered",
+      "id": "a87f"
+    },
+    {
+      "id": "6cae",
+      "pname": "Iphone",
+      "pnumber": "120",
+      "payment": "due",
+      "status": "approved"
+    }
+  ]
+}

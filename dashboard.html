@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Correct Material Symbols Import -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="style.css">
+    <div class="theme-toggler">
+        <span class="material-symbols-outlined">
+            light_mode
+        </span>
+        <span class="material-symbols-outlined">
+            dark_mode
+        </span>
+    </div>
+</head>
+
+<body>
+    <div class="dark-theme"></div>
+    <div class="container">
+
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <h2><span class="danger">Neha Panbude</span></h2>
+                </div>
+                <div class="close" id="close_btn">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+            </div>
+            <!-- Top End -->
+            <a href="#dashboard-section">
+                <span class="material-symbols-outlined">
+                    empty_dashboard
+                </span>
+                <h2>Dashboard</h2>
+            </a>
+            <a href="#recent-orders-section">
+                <span class="material-symbols-outlined">
+                    groups_2
+                </span>
+                <h2>Recent Orders</h2>
+            </a>
+            <a href="./insertdata.html"> Insert Data</a>
+        </aside>
+
+        <!-- Side Section End -->
+
+        <!--MainSectionStart-->
+        <main>
+            <h1 id="dashboard-section">Dashboard</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+            <div class="insights">
+                <!--Selling-->
+                <div class="sales">
+                    <span class="material-symbols-outlined">trending_up</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Sales</h3>
+                            <h1>$50</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle r="30" cy="40" cx="40"></circle>
+                            </svg>
+                            <div class="number">
+                                80%
+                            </div>
+                        </div>
+                        <small>Last 48 hours</small>
+                    </div>
+                </div>
+                <!--EndSell-->
+
+                <!--Expense-->
+                <div class="expenses">
+                    <span class="material-symbols-outlined">local_mall</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Expense</h3>
+                            <h1>$15</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle r="30" cy="40" cx="40"></circle>
+                            </svg>
+                            <div class="number">
+                                70%
+                            </div>
+                        </div>
+                        <small>Last 48 hours</small>
+                    </div>
+                </div>
+                <!--EndExp-->
+
+                <!--Income-->
+                <div class="income">
+                    <span class="material-symbols-outlined">stacked_line_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Income</h3>
+                            <h1>$30</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle r="30" cy="40" cx="40"></circle>
+                            </svg>
+                            <div class="number">
+                                50%
+                            </div>
+                        </div>
+                        <small>Last 48 hours</small>
+                    </div>
+                </div>
+                <!--EndIncome -->
+
+            </div>
+            <!--MainSectionEnd-->
+            <div class="recent_order" id="recent-orders-section">
+                <h1>Recent Order</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Product Number</th>
+                            <th>Payment</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="viewtable">
+                        <!-- <tr>
+                            <td>Pen Drive</td>
+                            <td>245</td>
+                            <td>Due</td>
+                            <td>In-Transit</td>
+                        </tr> -->
+                        <!-- <tr>
+                            <td>Pen Drive</td>
+                            <td>245</td>
+                            <td>Due</td>
+                            <td>In-Transit</td>
+                        </tr>
+                        <tr>
+                            <td>Fan</td>
+                            <td>2445</td>
+                            <td>Due</td>
+                            <td>In-Transit</td>
+                        </tr>
+                        <tr>
+                            <td>Mobile`</td>
+                            <td>42224</td>
+                            <td>Due</td>
+                            <td>Pending</td>
+                        </tr>
+                        <tr>
+                            <td>Laptop</td>
+                            <td>245245</td>
+                            <td>Paid</td>
+                            <td>Delivered</td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+        </main>
+        <!--MainSectnEnd-->
+        <div id="editable" style="display:none"></div>
+
+        <!--rightSectionStart-->
+        <div class="right">
+            <div class="login-signup-container">
+                <a href="login.html">
+                    <button class="login-btn">Login</button>
+                </a>
+                <a href="signup.html">
+                    <button class="signup-btn">Sign Up</button>
+                </a>
+            </div>
+
+            <div class="top">
+                <button class="menu_bar">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+
+                <div class="theme-toggler">
+                    <span class="material-symbols-outlined">
+                        light_mode
+                    </span>
+                    <span class="material-symbols-outlined">
+                        dark_mode
+                    </span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p><b>Neha Panbude</b></p>
+                        <p>Admin</p>
+                        <small class="text-muted"></small>
+                    </div>
+
+                </div>
+                <div class="auth-buttons">
+                    <a href="login.html" class="button">Login</a>
+                    <a href="signup.html" class="button">Sign Up</a>
+                </div>
+            </div>
+            <div class="profile-photo">
+                <img src="Neha.jpg" alt="">
+            </div>
+            <!--EndRight-->
+            <!--RecentUpdateStart-->
+            <div class="recent_updates">
+                <h2>Recent Updates</h2>
+                <div class="updates">
+                    <div class="profile-photo">
+                        <img src="neha123.jpg" alt="">
+                    </div>
+                    <div class="message">
+                        <p><b>Neha Panbude-</b>Received Order</p>
+                    </div>
+                    <div class="updates">
+                        <div class="profile-photo">
+                            <img src="SHANTANU.jpg" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Manya-</b>Payment Pending</p>
+                        </div>
+                        <div class="updates">
+                            <div class="profile-photo">
+                                <img src="neha123.jpg" alt="">
+                            </div>
+                            <div class="message">
+                                <p><b>Neha Panbude-</b>Payment Pending</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--EndRecent-->
+            <!--StartSale-->
+            <div class="sales_analytics">
+                <h2>Sales Analytics</h2>
+                <div class="item online">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </div>
+                    <div class="right_text">
+                        <div class="info">
+                            <h3>Online Order</h3>
+                            <small class="text-muted">
+                                2 hours ago
+                            </small>
+                            <h5>-15%</h5>
+                            <h3>3043</h3>
+                        </div>
+                    </div>
+                    <div class="item online">
+                        <div class="icon">
+                            <span class="material-symbols-outlined">
+                                shopping_bag
+                            </span>
+                        </div>
+                        <div class="right_text">
+                            <div class="info">
+                                <h3>Offline Order</h3>
+                                <small class="text-muted">
+                                    15 mins ago
+                                </small>
+                                <h5>-15%</h5>
+                                <h3>13513</h3>
+                            </div>
+                        </div>
+                        <div class="item online">
+                            <div class="icon">
+                                <span class="material-symbols-outlined">
+                                    local_shipping
+                                </span>
+                            </div>
+                            <div class="right_text">
+                                <div class="info">
+                                    <h3>Online Order</h3>
+                                    <small class="text-muted">
+                                        2 hours ago
+                                    </small>
+                                    <h5>-15%</h5>
+                                    <h3>52524</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--EndSale-->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="dashboard.js"></script>
+</body>
+
+</html>
